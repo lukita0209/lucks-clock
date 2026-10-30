@@ -19,19 +19,16 @@ Reloj para Android en pantalla completa y horizontal, con segundos, personalizab
 - La tarjeta muestra: portada a la izquierda, nombre, artista, **barra para elegir el segundo** de la canción, shuffle, anterior, pausa/play, siguiente y bucle.
 - Animaciones al abrir, cerrar y al cambiar de canción.
 
-## 📲 Cómo obtener el APK
-
-El APK se compila solo en GitHub, no necesitas Android Studio.
-
-1. Sube `lucks-clock.zip` a este repositorio (sin descomprimir).
-2. Debe existir el archivo `.github/workflows/build.yml`.
-3. Cada vez que haces un commit, la pestaña **Actions** compila la app (tarda unos 3 a 5 minutos).
-4. Cuando salga el check verde, entra a **Releases** y descarga `lucks-clock.apk` de la versión más nueva.
-
 ## 🔧 Instalación
 
 1. Abre el APK en el celular y permite instalar apps de orígenes desconocidos si te lo pide.
-2. Si **Play Protect** lo bloquea: toca **Más detalles → Instalar de todos modos**. Esto pasa porque la app no viene de Play Store.
+2. Si **Play Protect** lo bloquea:
+- Abre Play Store, toca tu foto de perfil y entra a Play Protect.
+- Toca el engranaje de arriba a la derecha.
+- Desactiva Analizar apps con Play Protect.
+- Instala el APK de nuevo.
+- Cuando termine, vuelve a activar esa opción.
+Esto pasa porque la app no viene de Play Store.
 3. Si ya tenías una versión instalada, **desinstálala antes**: cada compilación se firma con una clave distinta y Android no deja actualizar encima. Se borran tus ajustes.
 
 ## 🎵 Conectar Spotify
@@ -80,4 +77,4 @@ app/src/main/
 
 ---
 
-Hecho con ❤️ por Lukita.
+Hecho con ❤️ por Lucks y Claude.
